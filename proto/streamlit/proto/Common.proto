@@ -75,6 +75,7 @@ message UploadedFileInfo {
   // The size of this file in bytes.
   uint32 size = 3;
 
+  // TODO(vdonato / kajarenc): Maybe rename this field file_id.
   // URL that this file was uploaded to.
   string file_url = 4;
 }
